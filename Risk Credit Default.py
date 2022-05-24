@@ -81,21 +81,21 @@ plt.tight_layout()
 # In[151]:
 
 
-sns.distplot(a=df['Age']); 
+sns.distplot(a=df['Age']) 
 #sns.displot(x=df['Age']);
 
 
 # In[152]:
 
 
-sns.distplot(a=df['Income']);  
+sns.distplot(a=df['Income'])  
 #well distributed income data
 
 
 # In[77]:
 
 
-sns.heatmap(data=df.corr(), annot=True);  
+sns.heatmap(data=df.corr(), annot=True)  
 
 #variables looking good, not much correlated, excluding 'Experience' and 'current_job_years', that make sense being correlated.
 
@@ -118,7 +118,7 @@ sns.boxplot(data=df['Income']) #no outliers
 
 
 p = df.groupby('Risk_Flag')['Risk_Flag'].count()
-plt.pie(p, explode=[0.05, 0.1], labels=['Non-Defaulters', 'Defaulter'], radius=2, autopct='%1.1f%%', shadow=True);
+plt.pie(p, explode=[0.05, 0.1], labels=['Non-Defaulters', 'Defaulter'], radius=2, autopct='%1.1f%%', shadow=True)
 
 
 # In[102]:
