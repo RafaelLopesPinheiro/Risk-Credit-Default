@@ -1,5 +1,6 @@
 # Risk Credit Default
- 
-Projeto realizado com intuito de prever se o próximo cliente irá dar calote na dívida ou não.
 
-Utilizei técnicas de analise de dados, EDA, visualizações e machine learning para realizar a tarefa.
+Project realized with intent to forecast if the next client will default.
+
+Used techniques of data analysis, data visualizations and machine learning to acomplish the task.
+
